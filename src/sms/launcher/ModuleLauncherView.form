@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="sms.launcher.ModuleLauncherView">
+  <grid id="27dc6" binding="mainFrame" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="459" height="559"/>
+    </constraints>
+    <properties/>
+    <border type="bevel-raised" title="Store Management System" title-justification="1" title-position="2"/>
+    <children>
+      <component id="f19f7" class="javax.swing.JRadioButton" binding="localMode">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="Local Mode"/>
+        </properties>
+      </component>
+      <component id="545d6" class="javax.swing.JRadioButton" binding="remoteMode">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <horizontalAlignment value="10"/>
+          <selected value="false"/>
+          <text value="Remote Mode"/>
+        </properties>
+      </component>
+      <component id="61a9c" class="javax.swing.JButton" binding="addProductAccess">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentY value="0.5"/>
+          <contentAreaFilled value="true"/>
+          <enabled value="true"/>
+          <icon value="images/addproduct.png"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="214" height="172"/>
+          <minimumSize width="214" height="172"/>
+          <preferredSize width="214" height="172"/>
+          <text value=""/>
+          <toolTipText value="Click to Add Product"/>
+        </properties>
+      </component>
+      <component id="115a3" class="javax.swing.JButton" binding="updateProductAccess">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.5" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <hideActionText value="false"/>
+          <icon value="images/updateproduct.png"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="214" height="172"/>
+          <minimumSize width="214" height="172"/>
+          <preferredSize width="214" height="172"/>
+          <text value=""/>
+          <toolTipText value="Click to Update Product"/>
+        </properties>
+      </component>
+      <component id="3532a" class="javax.swing.JButton" binding="addPurchaseAccess">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <icon value="images/addpurchase.png"/>
+          <maximumSize width="214" height="172"/>
+          <minimumSize width="214" height="172"/>
+          <preferredSize width="214" height="172"/>
+          <text value=""/>
+          <toolTipText value="Click to Add Purchase"/>
+        </properties>
+      </component>
+      <component id="58211" class="javax.swing.JButton" binding="addCustomerAccess">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="0"/>
+          <icon value="images/addcustomer.png"/>
+          <inheritsPopupMenu value="false"/>
+          <text value=""/>
+          <toolTipText value="Click to Add Customer"/>
+        </properties>
+      </component>
+      <component id="97ef1" class="javax.swing.JButton" binding="updatePurchaseAccess">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <icon value="images/updatepurchase.png"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="214" height="172"/>
+          <minimumSize width="214" height="172"/>
+          <opaque value="true"/>
+          <preferredSize width="214" height="172"/>
+          <text value=""/>
+          <toolTipText value="Click to Update Purchase"/>
+        </properties>
+      </component>
+      <component id="e394a" class="javax.swing.JButton" binding="updateCustomerAccess">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <enabled value="true"/>
+          <horizontalAlignment value="4"/>
+          <icon value="images/updatecustomer.png"/>
+          <text value=""/>
+          <toolTipText value="Click to Update Customer"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="modeGroup">
+      <member id="545d6"/>
+      <member id="f19f7"/>
+    </group>
+  </buttonGroups>
+</form>
